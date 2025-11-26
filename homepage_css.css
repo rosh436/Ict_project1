@@ -1,0 +1,89 @@
+
+/* Reset default styles */
+body, h1, h3, p, ul, li, nav {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+
+/* Body styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f1f4eb;
+    color: #3f8ad4;
+    padding: 20px;
+    border: 5px solid #0077b6; /* blue border around the page */
+    border-radius: 10px; /* optional rounded corners */
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #0077b6;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ffd166;
+}
+
+/* Headings */
+h1, h3 {
+    font-family: 'Press Start 2P', cursive; /* Press Start 2P font */
+}
+
+h1 {
+    color: #023e8a;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h3 {
+    color: #03045e;
+    margin-top: 20px;
+}
+
+/* Paragraphs */
+p {
+    margin-bottom: 20px;
+    text-align: justify;
+    font-size: 1.1rem;
+    color: #0077b6; /* blue text */
+}
+
+/* Horizontal rules */
+hr {
+    border: 0;
+    height: 2px;
+    background: #0077b6;
+    margin: 20px 0;
+}
+
+/* Image styling */
+img {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Lists */
+ul {
+    list-style-type: disc;
+    padding-left: 40px;
+}
+footer p{
+    text-align: center;
+    
+}

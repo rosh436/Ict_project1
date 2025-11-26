@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Zone Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="card">
+            <h2>Starting Point</h2>
+
+            <label>Choose the continent/area that your starting time zone is in:</label>
+            <select id="startContinent">
+                <option>America</option>
+                <option>Europe</option>
+                <option>Asia</option>
+                <option>Africa</option>
+                <option>Australia</option>
+            </select>
+
+            <label>Choose a Starting Time Zone:</label>
+            <select id="startTimezone"></select>
+
+            <label>Date:</label>
+            <input type="date" id="startDate">
+
+            <label>Time:</label>
+            <input type="time" id="startTime">
+        </div>
+
+        <button id="convertBtn">CONVERT TIME</button>
+
+        <div class="card">
+            <h2>Ending Point</h2>
+
+            <label>Choose the continent/area that your destination time zone is in:</label>
+            <select id="endContinent">
+                <option>America</option>
+                <option>Europe</option>
+                <option>Asia</option>
+                <option>Africa</option>
+                <option>Australia</option>
+            </select>
+
+            <label>Choose a Destination Time Zone:</label>
+            <select id="endTimezone"></select>
+
+            <h3>Result:</h3>
+            <p id="result"></p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
